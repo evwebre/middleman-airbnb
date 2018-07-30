@@ -1,9 +1,9 @@
 <div class="about-content">
     <h1>This template is built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline text center">
+    <ul class="list-inline">
       <% %w(everett sawyer).each do |member| %>
         <li>
-          <%= image_tag "#{member}.jpg", class: "img-circle" %>
+          <%= image_tag "#{member}.jpg", class: "img-circle image-100" %>
           <h3><%= member.capitalize %></h3>
         </li>
        <% end %>
